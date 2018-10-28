@@ -11,6 +11,8 @@ Using the customer interface, a user can get item IDs, names, departments, price
 
 ## Screenshots
 
+Figure 1: a couple of purchasing examples.
 ![CLI](https://github.com/reneegrinnell/BamazonStorefront/blob/master/images/purchasing.PNG)
 
+Figure 2: the database after the above purchasing exchange. Note that, because I bought out all the Borg alcoves ($$$), there are now 0 remaining in the database.
 ![DB](https://github.com/reneegrinnell/BamazonStorefront/blob/master/images/borg.PNG)
