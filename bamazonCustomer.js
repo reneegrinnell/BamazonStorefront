@@ -65,7 +65,9 @@ function purchaseItem() {
             return "Did you fall asleep in math class a little too often at the Academy? Please enter a numerical value."
         }
     }]).then(function (answer) {
-        connection.query("SELECT * FROM products WHERE id = ?", [answer.selectId], function (err, res) {
+        //console.log(JSON.stringify(answer));
+        connection.query("SELECT * FROM products WHERE ?", {item_id:answer.chooseId}, function (err, res) {
+            //console.log(JSON.stringify(res));
             if (answer.chooseQuantity > res[0].stock_quantity) {
                 console.log("\nInsufficient quantity!");
                 console.log("\nYour order has been cancelled.\n");
@@ -79,7 +81,7 @@ function purchaseItem() {
                 connection.query("UPDATE products SET ? Where ?", [{
                     stock_quantity: res[0].stock_quantity - answer.chooseQuantity
                 }, {
-                    id: answer.selectId
+                    item_id: answer.chooseId
                 }], function (err, res) { });
                 newOrder();
             }
