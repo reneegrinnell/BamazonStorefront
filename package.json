@@ -1,0 +1,24 @@
+{
+  "name": "BamazonStorefront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "mysql": "^2.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reneegrinnell/BamazonStorefront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reneegrinnell/BamazonStorefront/issues"
+  },
+  "homepage": "https://github.com/reneegrinnell/BamazonStorefront#readme"
+}
