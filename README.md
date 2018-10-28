@@ -11,6 +11,6 @@ Using the customer interface, a user can get item IDs, names, departments, price
 
 ## Screenshots
 
-![CLI](images/purchasing.png)
+![CLI](https://github.com/reneegrinnell/BamazonStorefront/blob/master/images/purchasing.PNG)
 
-![DB](/images/borg.png)
+![DB](https://github.com/reneegrinnell/BamazonStorefront/blob/master/images/borg.PNG)
